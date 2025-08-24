@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CURRENCY CONVERTER</title>
+    <link rel="stylesheet" href="curency.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div id="text-container">
+        <h2>CURRENCY CONVETER</h2>
+        <h3>Enter the ammount</h3>
+      </div>
+      <form>
+        <div class="ammount">
+          <input value="100" type="text" />
+
+          <div class="dropdown">
+            <div class="from">
+              <div class="select-container">
+                <p>From</p>
+                <img src="https://flagsapi.com/US/flat/64.png" />
+                <select name="from">
+                  <option value="USD">USD</option>
+                  <option value="INR">INR</option>
+                  <option value="EUR">EUR</option>
+                  <option value="AUD">AUD</option>
+                </select>
+              </div>
+            </div>
+            <i class="fa-solid fa-right-left"></i>
+            <div class="to">
+              <div class="select-container">
+                <p>To</p>
+                <img src="https://flagsapi.com/IN/flat/64.png" />
+                <select name="to">
+                  <option value="USD">USD</option>
+                  <option value="INR" selected>INR</option>
+                  <option value="EUR">EUR</option>
+                  <option value="AUD">AUD</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="msg">1USD = 80INR</p>
+        <button>Get Exchange Rate</button>
+      </form>
+    </div>
+    <script src="curency.js"></script>
+  </body>
+</html>
