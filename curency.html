@@ -14,14 +14,14 @@
     />
   </head>
   <body>
+    <div class="heading"><h1>CURRENCY CONVERTER</h1></div>
     <div class="container">
       <div id="text-container">
-        <h2>CURRENCY CONVETER</h2>
-        <h3>Enter the ammount</h3>
+        <h2>Enter the ammount</h2>
       </div>
       <form>
         <div class="ammount">
-          <input value="100" type="text" />
+          <input value="1" type="text" />
 
           <div class="dropdown">
             <div class="from">
@@ -29,10 +29,7 @@
                 <p>From</p>
                 <img src="https://flagsapi.com/US/flat/64.png" />
                 <select name="from">
-                  <option value="USD">USD</option>
-                  <option value="INR">INR</option>
-                  <option value="EUR">EUR</option>
-                  <option value="AUD">AUD</option>
+                  
                 </select>
               </div>
             </div>
@@ -42,19 +39,17 @@
                 <p>To</p>
                 <img src="https://flagsapi.com/IN/flat/64.png" />
                 <select name="to">
-                  <option value="USD">USD</option>
-                  <option value="INR" selected>INR</option>
-                  <option value="EUR">EUR</option>
-                  <option value="AUD">AUD</option>
+                  
                 </select>
               </div>
             </div>
           </div>
         </div>
-        <p class="msg">1USD = 80INR</p>
+        <p class="msg">1 USD = 82.81 INR</p>
         <button>Get Exchange Rate</button>
       </form>
     </div>
+    <script src="codes.js"></script>
     <script src="curency.js"></script>
   </body>
 </html>
